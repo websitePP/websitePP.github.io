@@ -1,0 +1,57 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  background-color: dimgray;
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.gradient-text {
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #03c1c4, #8003c4);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 60px;
+  -webkit-text-stroke: 1px black;
+}
+
+h1 {
+  font-family: Papyrus;
+}
+
+input[type=submit] {
+    padding:5px 20px;
+    font-family: Papyrus;
+    font-weight: bold;
+    color: purple;
+    background:#f5e9dc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 20px; 
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
