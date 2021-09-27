@@ -54,5 +54,6 @@ img,
 video {
   height: auto;
   max-width: 100%;
+  border: 5px solid rgb(92, 58, 146);
 }
 https://github.com/websitePP/websitePP.github.io.git
