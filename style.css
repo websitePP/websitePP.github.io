@@ -12,9 +12,10 @@ html {
   box-sizing: inherit;
 }
 
-imgWithBorder
+.ImageBorder
 {
-  border: 5px solid rgb(92, 58, 146);
+    border-width: 1px;
+    border-color: rgb(92, 58, 146);
 }
 
 /* adjust typography defaults */
