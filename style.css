@@ -46,6 +46,9 @@ body {
   -webkit-text-stroke: 1.5px black;
 }
 
+.gallery-text {
+  font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+}
 
 h1 {
   font-family: Papyrus;
