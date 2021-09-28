@@ -33,6 +33,20 @@ body {
   -webkit-text-stroke: 1.5px black;
 }
 
+.gradient-small {
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #03c1c4, #8003c4);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 40px;
+  -webkit-text-stroke: 1.5px black;
+}
+
+
 h1 {
   font-family: Papyrus;
 }
